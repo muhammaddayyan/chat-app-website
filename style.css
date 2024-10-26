@@ -15,11 +15,11 @@ body{
 
 .box-1{
   height: 600px;
-  width: 300px;
+  width: 370px;
   background-color: #c340fe;
   color: #c340fe;
-  border-bottom-left-radius: 105px;
-  border-bottom-right-radius: 105px;
+  border-bottom-left-radius: 145px;
+  border-bottom-right-radius: 145px;
 }
 
 .mobile{
@@ -219,18 +219,18 @@ body{
 
 .type-box{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .box-8{
   display: flex;
   background-color: #ffff;
   border-radius: 15px;
-  padding: 10px;
+  padding: 6px;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 200px;
-  justify-content: start;
+  width: 210px;
+  justify-content: space-between;
 }
 
 .type{
@@ -239,8 +239,58 @@ body{
   color: #949494;
 }
 
+.test-5{
+  display: flex;
+  align-items: center;
+}
+
 .greater{
   display: flex;
-  background-color: #c340fe;
+  background-color: #3e264f;
   flex-direction: column;
+  border-radius: 25px;
+  padding: 6px;
+  margin-left: 90px;
+}
+
+.great-img{
+  width: 12px;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+}
+
+.simple{
+  position: absolute;
+  color: #332145;
+  left: 45%;
+  font-weight: 700;
+  top: 35%;
+}
+
+.para-6{
+  position: absolute;
+  top: 43%;
+  line-height: 20px;
+  color: #999999;
+  left: 45%;
+  width: 350px;
+  font-size: 12px;
+}
+
+.sec-last{
+  display: flex;
+}
+
+.last{
+  height: 600px;
+  width: 370px;
+  background-color: #c340fe;
+  color: #c340fe;
+  border-bottom-left-radius: 145px;
+  border-bottom-right-radius: 145px;
+  display: flex;
+  position: absolu
 }
